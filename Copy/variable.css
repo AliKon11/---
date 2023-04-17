@@ -1,0 +1,89 @@
+/*--primary-:;
+--secondary-:;
+--third-:;
+--fourth-:;
+--warning-:;
+--dengerous-:;
+--accept-:;
+*/
+/*
+--Y-xxxl: ;
+--Y-xxl: ;
+--Y-xl: ;
+--Y-l: ;
+--Y-m: ;
+--Y-s: ;
+--Y-xs: ;
+*/
+
+@font-face {
+    font-family:"primary";
+    src: url(../fonts/NanumMyeongjo-Bold.ttf)
+
+}
+@font-face {
+    font-family: "secondary";
+    src: url(../fonts/NanumMyeongjo-Regular.ttf);
+}
+@font-face{
+    font-family: "third" ;
+    src:url(../fonts/NanumMyeongjo-ExtraBold.ttf);
+}
+
+
+
+
+:root{
+
+    /*  BG */
+    --primary-bg : #F5F5F5;
+
+    /*  color */
+
+    --primary-color : rgb(46, 41, 39);
+    --secondary-color : rgb(119, 119, 119);
+    --third-color : rgba(119, 119, 119, 1);
+    --fourth-color : #F5F5F5;
+    
+    /* BORDER-COLOR */
+     --primary-border: rgba(46, 41, 39, 1);
+
+    /*Font-family*/
+
+    --primary-font: "primary";
+    --secondary-font: "secondary";
+    --third-font: "third";
+    
+
+
+
+    /*Font size*/
+   
+    --fs-xl: 70;
+    --fs-l: 42;
+    --fs-m:20 ;
+    --fs-s: 18;
+    --fs-xs:16 ;
+    
+
+    --margin-xxxl: 160;
+    --margin-xxl:90 ;
+    --margin-xl:60 ;
+    --margin-l: 55;
+    --margin-m: 30;
+    --margin-s: 20;
+    --margin-xs:10 ;
+
+
+    
+
+--padding-xxxl:160 ;
+--padding-xxl: 90;
+--padding-xl: 60;
+--padding-l: 55;
+--padding-m: 30;
+--padding-s:20 ;
+--padding-xs:10 ;
+
+   
+}

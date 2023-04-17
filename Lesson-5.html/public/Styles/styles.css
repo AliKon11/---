@@ -1,0 +1,130 @@
+
+html {
+    background-image: url(../fonts/pexels-mudassir-ali-2680270.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+*{
+    color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.li{ 
+    list-style-type: none;
+}
+
+div.background {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+  }
+.a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#app {
+
+    font-family: Arial, Helvetica, sans-serif; 
+    
+
+}
+
+.img-wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.img{
+    width: 100px;
+   
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.main{
+    margin: 70px;
+}
+
+.product{
+
+    padding: 70px;
+    width: 30%;
+ }
+.product__img-wrapper{
+     
+    float: left;
+    
+}
+
+.product__img-wraper{
+    float: left;
+}
+
+ .product__title{
+    display: flex;
+    justify-content: center;
+
+ }
+
+
+
+ .product__img{
+   width: 600px; 
+   height: 700px;
+ }
+
+ .table{
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+ }
+
+ .table__row{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+ 
+
+ .table__col {
+    border-bottom: 2px solid rgb(169, 169, 169);
+    padding: 20px; 
+    background: rgba(116, 193, 216, 0.106);
+
+ }

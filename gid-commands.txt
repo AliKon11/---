@@ -1,0 +1,41 @@
+Get repo from gitHub 
+
+git clone <hash> - clone remote repo 
+
+Algorithm/ flow --> post date into repo
+git init- initialize project as a  git repo 
+--------------------------------------------
+Project  recives status, also as a files
+U-untrackted
+
+        |
+        _
+gid add <file_name >
+gid add . add all filesin the current work directory
+
+A - Added  
+        |
+        _
+M - modified
+
+git status - project status 
+
+Commited 
+
+git commit -m "<your_message>"- project commited 
+
+git log- get console with logged date 
+
+
+git merge - merge
+
+
+git checkout - change current branch/version
+
+
+
+
+
+ 
+
+

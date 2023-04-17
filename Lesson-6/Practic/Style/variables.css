@@ -1,0 +1,53 @@
+
+@font-face{
+    font-family: "montserrat" ;
+    src: url();
+}
+
+:root{
+    /*BG*/
+
+    --primary-bg:darkmagenta ;
+    --secondary-bg: pink ;
+    --third-dg: purple ;
+    --third-dg: lightcoral;
+
+
+
+    /*color*/
+    --primary-bg:darkmagenta ;
+    --secondary-bg: pink ;
+    --third-dg: purple ;
+    /*font-size*/
+    --ff-xl-xl:4rem;
+    --ff-xl-l:3rem;
+    --ff-xl-m:2rem;
+    --ff-xl-s:1rem;
+    --ff-xl-xs:.5rem;
+   
+
+    /*padding*/
+    --padding-xl:4rem;
+    --padding-l:3rem;
+    --padding-m:2rem;
+    --padding-s:1rem;
+    --padding-xs:.5rem;
+
+    /*margin*/
+    --margin-xl:4rem;
+    --margin-l:3rem;
+    --margin-m:2rem;
+    --margin-s:1rem;
+    --margin-xs:.5rem;
+
+    /*font-family*/
+    --primary-ff:;
+    --secondary-ff:;
+    
+    /*box-shadow*/
+    --box-shadow-x:8px 11px 8px;
+    --box-shadow-m:6px 8px 6px;
+    --box-shadow-s:4px 6px 4px;
+    
+    
+}

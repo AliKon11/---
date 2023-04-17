@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin:0px ;
+}
+
+#app{
+background: rgb(192, 113, 192);
+height: 100vh;
+}
+
+.logo{
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    
+    
+}
+
+.image{
+   width: 500px; 
+   float: left;
+   
+}

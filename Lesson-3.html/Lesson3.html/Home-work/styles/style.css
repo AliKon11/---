@@ -1,0 +1,59 @@
+/* *->SELECT ALL */
+*{
+    margin: 0px;
+    padding:0px ;
+}
+h1 {
+    border: 1px solid rgb(234, 234, 206);
+    background: orangered;
+}
+/*select by className*/
+/*className {}*/
+ /*id {}*/
+
+.world {
+    background:  rgb(73, 243, 73);
+}
+
+#hello {
+    background: rgb(146, 146, 20);
+}
+a{
+color: blue;
+text-decoration:none;
+}
+li{
+color: green;
+list-style-type: none;
+
+}
+.header {
+    background: rgb(255, 114, 26);
+}
+.header__image{
+    width: 150px;
+}
+.header__input{
+    padding: 5px;
+    border:none;
+    background:inherit;
+    color:black;
+    border-bottom: 2px solid black;
+    border-right:black ;
+}
+
+.nav{display: inline-block;}
+.nav-link { margin-left: 15px;}
+
+.nav-link
+.sidebar {
+    background: violet;
+}
+
+.main{
+    background: rgb(224, 195, 80);
+}
+.footer{
+    border: cornsilk;
+    background: orangered;
+}
