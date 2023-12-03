@@ -1,55 +1,74 @@
-<!DOCTYPE html>
-<html lang="en,ua">
-<head>
-    <meta charset="UTF-8">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма реєстрації з меню </title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,800italic,400,300,600,800' rel='stylesheet' type='text/css'>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--path 
-    absolute path
-     (C://Documents/Images..
-    
-    reletive path
-    Lesson2.html/Cat..avif
+  </head>
 
+  <div class="container">
+    <div class="flat-design-form">
+        <ul class="tabs">
+            <li><a class="active" href="#login" id="login-tab" name="login-tab"><span id="login_icon"></span> Login</a></li>
+            <li><a href="#register" id="register-tab" name="register-tab"><span id="signup_icon"></span> Register</a></li>
+        </ul>
+        <div class="form-display show" id="login">
+          <h1>Login</h1>
+          <form action="" method="post" novalidate="">
+              <fieldset>
+                  <ul>
+                      <li>
+                          <div class="item">
+                              <input data-validate-length-range="6" name="name" placeholder="Username" required="required" type="text">
+                          </div>
+                      </li>
+                      <li>
+                          <div class="item">
+                              <input data-validate-length-range="6" name="password" placeholder="Password" required='required' type="password">
+                          </div>
+                      </li>
+                      <li><input class="button-login" type="submit" value="Login"></li>
+                  </ul>
+              </fieldset>
+          </form>
+      </div>
 
-    )-->
-    <link rel="shortcut icon" href="./images/cats.png" type="images/x-icon"/>
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>The best website</title>
-</head>
-<body>
-    <header>
-    <!--Semantik teg-->
-    <!--Semantig teg always blok-->
-    <h1>The best Cat! </h1>
-    <h2>Crazy Cat!</h2>
-    <h3>History of cats...</h3>
-    </header>
-    <aside>
-        <h1>Filters</h1>
-        <!--img-->
-        <!--src-resoyrce-->
-        
-
-        <img 
-        alt=" "
-        src="https://oir.mobi/uploads/posts/2022-09/1662112634_1-oir-mobi-p-kot-garfild-oboi-1.jpg"width=40%/>
-        <p>
-            <!--Text-->
-            1. Вчені зафіксували, що в господарів котів імовірність інфаркту або інсульту зменшується на 30%.
-            2. Виявляється, у людей і котів за емоції відповідають одні і ті ж ділянки мозку.
-            3. Коти сплять у середньому 70% доби – більш як дві третини свого життя.
-            4. У кожного кота свій унікальний відбиток носика – це як відбитки пальців у людей.
-            5. У котів немає потових залоз по всьому тілу, як у людей. Вони пітніють тільки через лапи.
-           
-        </p>
-        <button>Like</button>
-    </aside>
-    <main>
-       <h1> Content about cats! </h1>
-    </main>
-    <footer>
-        <h1>Best and funniest cats 2023</h1>
-    </footer>
-</body>
+      <div class="form-display hide" id="register">
+        <h1>Register</h1>
+        <form action="" method="post" novalidate="">
+            <fieldset>
+                <ul>
+                    <li>
+                        <div class="item">
+                            <input data-validate-length-range="6" name="name" placeholder="Username" required="required" type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <input data-validate-length="6,8" name="password"  placeholder="Password" required='required' type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <input class='email' name="email" placeholder="Email" required="required" type="email">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <label><input name="url" placeholder="Website link"  required="required" type="url"></label>
+                        </div>
+                    </li>
+                    <li><input class="button-register" id='send' type="submit" value="Sign Up"></li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
